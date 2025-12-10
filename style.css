@@ -65,8 +65,8 @@ main::before {
 }
 
 .card {
-    max-width: 22rem;
-    min-width: 22rem;
+    max-width: 20rem;
+    min-width: 20rem;
     background-color: var(--surface-2);
     padding: var(--spacing-300);
     display: flex;
@@ -134,10 +134,9 @@ summary {
     margin-block-end: var(--spacing-300);
 }
 
-summary h2 {
-    display: inline;
+summary {
     font-weight: 600;
-    font-size: calc(18 / 16 * 1rem);
+    font-size: calc(16 / 16 * 1rem);
     line-height: calc(21 / 16 * 1rem);
     color: var(--title);
 }
@@ -147,8 +146,7 @@ summary:focus {
     outline: none;
 }
 
-summary:focus h2,
-summary h2:hover {
+summary:focus, summary:hover {
     color: var(--clr-violet-600);
 }
 
@@ -200,7 +198,7 @@ details:open summary::after {
         line-height: calc(24 / 16 * 1rem);
     }
 
-    summary h2 {
+    summary {
         font-size: calc(18 / 16 * 1rem);
         line-height: calc(21 / 16 * 1rem);
     }
