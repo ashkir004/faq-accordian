@@ -75,7 +75,7 @@ details:open summary::after {
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ashkir004)
+- Frontend Mentor - [@ashkir004](https://www.frontendmentor.io/profile/ashkir004)
 
 ## Acknowledgements
 
